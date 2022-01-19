@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer-bulk-print",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Bulk print webpages to pdf using puppeteer.",
+  "keywords": [
+    "bulk",
+    "print",
+    "pdf",
+    "puppeteer"
+  ],
+  "repository": "https://github.com/skyme5/puppeteer-bulk-print.git",
+  "homepage": "https://github.com/skyme5/puppeteer-bulk-print",
+  "author": "Aakash Gajjar <skyqutip@gmail.com>",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^9.0.0"
+  },
+  "scripts": {
+    "start": "node urltopdf.js"
+  }
+}
